@@ -4,6 +4,8 @@ An opinionated extension that provides a **Wrapper** command menu for quickly ru
 
 ![screenshot](https://raw.githubusercontent.com/mochiyaki/wrap/master/demo.gif)
 
+*create a wrapper.json in the current directory will override the default wrapper, it works like soul or skill md file, see how to setup you json under Configuration session below
+
 ## Table of Contents
 
 - [Architecture](#architecture)
@@ -75,7 +77,7 @@ flowchart TD
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/mochiyaki/wrap.git
+   git clone https://github.com/gguf-org/wrap.git
    ```
 2. Install deps and build:
    ```bash
